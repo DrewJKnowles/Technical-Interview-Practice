@@ -30,16 +30,16 @@ function outerFunction() {
 var closureFunction = outerFunction();
 closureFunction(); // Output: "I am outside!"
 ```
+
 **Explain the difference between null and undefined in JavaScript.**
 
 Answer: In JavaScript, null is an assignment value that represents no value or no object. It is an intentional absence of any object value. On the other hand, undefined is a type itself and represents a variable that has been declared but has not yet been assigned a value.
 
 Code Examples:
-
+```
 var nullVar = null;
 console.log(nullVar); // Output: null
 
 var undefinedVar;
 console.log(undefinedVar); // Output: undefined
-
 ```
